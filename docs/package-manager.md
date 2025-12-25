@@ -1,0 +1,1 @@
+we have flathub snap sudo as well 
