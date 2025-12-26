@@ -1,13 +1,13 @@
 site_name: My site
-site_url: https://mydomain.org/mysite
+site_url: https://codecompasss.github.io/codekub_userguide/
 
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: codekub_userguide
+repo_url: https://github.com/CodeCompasss/codekub_userguide
 
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: images/favicon.png
+  logo: image/logo.png
+  favicon: images/favicon.ico
 
   features:
     - navigation.instant
@@ -100,3 +100,52 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+site_name: " CodeKub User Guide"
+site_description: "A complete beginner-friendly guide for CSE students"
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Clipboard: clipboard.md
+  - Hotkeys: Hotkeys.md
+  - Language: lanugage.md
+  - Desktop:
+      - Lifera: Desktop/lifera.md
+      - Obsidian: Desktop/obsidian.md
+      - Readest: Desktop/readest.md
+      - ULauncher: Desktop/ulancher.md
+      - VirtualBox: Desktop/virtualbox.md
+  - Development:
+      - Docker: Development/docker.md
+      - GitHub CLI: Development/githubcli.md
+      - MISE: Development/mise.md
+      - Postman: Development/postman.md
+      - Spyder: Development/spyder.md
+      - VS Code: Development/vscode.md
+  - Terminal:
+      - Overview: Terminal/index.md
+      - Git Alias: Terminal/git-alias.md
+      - MySQL: Terminal/mysql.md
+      - Neovim: Terminal/neovim.md
+      - SSH: Terminal/ssh.md
+      - Zsh: Terminal/zsh.md
+      - Shell Tools:
+          - Eza: Terminal/shell-tool/eza.md
+          - FD: Terminal/shell-tool/fd.md
+          - FZH: Terminal/shell-tool/fzh.md
+          - Ripgrep: Terminal/shell-tool/ripgrep.md
+          - Zoxide: Terminal/shell-tool/zoxide.md
+      - TUI:
+          - Btop: Terminal/TUI/btop.md
+          - Fastfetch: Terminal/TUI/fastfetch.md
+          - Lazydocker: Terminal/TUI/lazydocker.md
+          - Lazygit: Terminal/TUI/lazygit.md
+  - Tiling: Tiling.md
+  - Web Apps:
+      - CodeCompass: webApp/codecompass.md
+      - Communication: webApp/communication.md
+      - Education: webApp/education.md
+      - Game: webApp/game.md
+      - Interview: webApp/interview.md

@@ -1,1 +1,0 @@
-mysql server with user root and password root 
