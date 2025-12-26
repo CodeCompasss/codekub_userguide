@@ -1,6 +1,4 @@
-Here’s a **beginner-friendly and structured guide** for **Linux hotkeys, Neovim shortcuts, and quick emoji triggers**, written in **Codekub style**.
 
----
 
 # Linux Hotkeys: Mastering Your Keyboard
 
@@ -152,17 +150,3 @@ Linux is **keyboard-first**, and learning hotkeys is the fastest way to **boost 
 
 💡 Tip: These shortcuts **speed up communication** in chat or coding environments.
 
----
-
-### ✅ Quick Takeaways
-
-1. **Super key** = your master key for GNOME navigation and tiling
-2. **Zellij + terminal shortcuts** = multi-pane coding superpower
-3. **LazyVim shortcuts** = modern IDE experience in Neovim
-4. **Quick Emojis** = express yourself fast without leaving keyboard
-
----
-
-If you want, I can next make a **visual “Linux + Neovim Hotkey Cheat Sheet”** combining **all these shortcuts** so beginners can **print or keep it open while coding**.
-
-Do you want me to do that?

@@ -8,7 +8,6 @@ theme:
   name: material
   logo: image/logo.png
   favicon: images/favicon.ico
-
   features:
     - navigation.instant
     - navigation.instant.prefetch
@@ -22,6 +21,11 @@ theme:
     - search.share
     - content.code.copy
     - content.code.annotate
+
+  
+
+
+
 
   font:
     text: Roboto

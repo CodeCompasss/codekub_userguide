@@ -162,17 +162,3 @@ Mental model:
 
 > Write less, do more.
 
----
-
-## Important Beginner Truth
-
-No single language is “the best”.
-
-Good engineers:
-
-* learn concepts
-* switch languages when needed
-* choose the right tool for the problem
-
-Languages change — **thinking skills don’t**.
-

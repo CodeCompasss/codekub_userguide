@@ -1,120 +1,80 @@
 
+
 ## What is Codekub?
 
-**Codekub** is a beginner-focused Linux setup script that installs and configures everything a **Computer Science / IT student** needs to start coding **from day one**.
+**Codekub** is a beginner-focused Linux setup script that installs and configures everything a **CSE/IT student** needs to start coding **from day one** — no guessing which tools to install or how to configure them.
 
-Instead of spending weeks figuring out:
-
-* which tools to install
-* how to configure them
-* why things break
-
-Codekub gives you a **ready-to-learn development environment**, while also **teaching you what each tool does and why it exists**.
+It gives you a **ready-to-learn development environment** while also **explaining what each tool does**.
 
 ---
 
 ## How Codekub Works
 
-Codekub is installed using a single command:
+Install with a single command:
 
 ```bash
-wget -qO- https://omakub.org/install | bash
+curl -sSL https://raw.githubusercontent.com/CodeCompasss/codekub/main/boot.sh | bash
 ```
 
-> ⚠️ Note:
-> The *idea* of using a single install script is inspired by **Omakub**, but **Codekub is a completely different project** with a different goal and audience.
+> ⚠️ Inspired by **Omakub**, but **Codekub is different** — it’s learning-first, not just installation.
 
 ---
 
-## Codekub vs Omakub (Very Important Difference)
+## Codekub vs Omakub
 
-### Omakub
+| Feature  | Omakub                 | Codekub                   |
+| -------- | ---------------------- | ------------------------- |
+| Audience | Experienced developers | Beginners & students      |
+| Goal     | Quick setup for work   | Learning tools & concepts |
+| Approach | Opinionated, fast      | Explanation-driven        |
 
-* Made for **experienced developers**
-* Opinionated, fast, production-ready
-* Assumes you already understand Linux, terminals, and tools
-* Focuses on *getting work done quickly*
-
-### Codekub
-
-* Made for **beginners and students**
-* Learning-first, explanation-driven setup
-* Beginner-friendly defaults
-* Focuses on *understanding tools*, not hiding them
-
-👉 **Omakub installs tools.
-👉 Codekub teaches tools.**
+👉 **Omakub installs tools. Codekub teaches tools.**
 
 ---
 
-## Who Is Codekub For?
+## Who Should Use Codekub?
 
-🎓 **CSE / IT students**
-🧑‍💻 **Programming beginners**
-🚀 **Anyone learning development tools from scratch**
+* New to Linux or terminals
+* Unsure why tools like Git, Docker, or Neovim exist
+* Want a learning-first setup
 
-If you are:
-
-* new to Linux
-* confused by terminals
-* unsure why developers use tools like Git, Docker, or Neovim
-
-**Codekub is for you.**
+Perfect for **students, beginners, or anyone learning development tools**.
 
 ---
 
 ## What Codekub Installs
 
-Codekub provides a **modern, real-world developer environment**, carefully chosen for learning.
+### Languages & Compilers
 
-### Programming Languages & Compilers
-
-* C / C++
-* Java
-* Python
-* Rust
-* Node.js
+* C / C++ / Java / Python / Rust / Node.js
 
 ### Developer Tools
 
-* Git
-* Docker
-* VS Code
-* Neovim
-* Tmux
-* Modern CLI utilities
+* Git, Docker, VS Code, Neovim, Tmux, modern CLI utilities
 
 ### Environment Setup
 
 * Preconfigured dotfiles
 * Clean GNOME customizations
-* Learning-friendly terminal setup
-* Sensible defaults (no unnecessary complexity)
+* Beginner-friendly terminal setup
+* Sensible defaults
 
-Everything works **out of the box**, but nothing is hidden.
+Everything works **out of the box** — nothing is hidden.
 
 ---
 
-## What Makes Codekub Different
+## Key Benefits
 
-Codekub emphasizes:
-
-✅ Clear explanations of tools and configurations
-✅ Beginner-oriented defaults
-✅ Step-by-step guides
-✅ Practical learning over “magic scripts”
-✅ Modern development workflows
-✅ A clean, beautiful Linux experience without overwhelm
-
-Instead of *just installing tools*, **Codekub helps you understand them**.
+* Clear explanations of tools
+* Beginner-friendly defaults
+* Step-by-step guides
+* Practical learning over “magic scripts”
+* Modern development workflows
+* Clean Linux experience without overwhelm
 
 ---
 
 ## Learning-First Philosophy
-
-Most setups assume:
-
-> “You’ll figure it out later.”
 
 Codekub assumes:
 
@@ -122,37 +82,17 @@ Codekub assumes:
 
 You learn:
 
-* what each tool does
-* why developers use it
-* how it fits into real projects
+* What each tool does
+* Why developers use it
+* How it fits in real projects
 
-This makes Codekub ideal for:
-
-* academic labs (personal learning)
-* self-study
-* first-time Linux users
-* long-term skill building
+Ideal for **self-study, labs, or first-time Linux users**.
 
 ---
 
-## License & Usage Notice
+## License & Usage
 
-✅ **Free for students and personal learning**
-❌ **Not allowed for commercial use**
-❌ **Not allowed for college labs or institutional deployment**
-
-Codekub is built to help **individual learners**, not organizations.
-
----
-
-## Project Background (Transparency Note)
-
-This project started **before I knew about Omakub**.
-Later, the **script-based installer idea** was inspired by Omakub.
-
-However:
-
-* Codekub has a **different mission**
-* Codekub targets **beginners**
-* Codekub focuses on **learning, not speed**
+* ✅ Free for students and personal learning
+* ❌ Not for commercial use
+* ❌ Not for college or institutional deployment
 
